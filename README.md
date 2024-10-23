@@ -1,6 +1,6 @@
 **Overview:**
 
-This project implements a 2-bit Arithmetic Logic Unit (ALU) using VHDL. The ALU takes two 2-bit binary inputs (A and B) and computes five different operations simultaneously. A 4-bit opcode (S) determines which operation's result is passed to the 4-bit output (Y), which is displayed on four LEDs on the Xilinx Zynq-7010 FPGA development board.
+This project implements an Arithmetic Logic Unit (ALU) using VHDL. The ALU takes two 2-bit binary inputs (A and B) and computes five different operations simultaneously. A 4-bit opcode (S) determines which operation's result is passed to the 4-bit output (Y), which is displayed on four LEDs on the Xilinx Zynq-7010 FPGA development board.
 
 **Features:**
 
