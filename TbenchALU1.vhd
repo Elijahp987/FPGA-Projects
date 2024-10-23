@@ -1,13 +1,13 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
+-- Engineer: Elijah Panayoty
 -- 
 -- Create Date: 10/21/2024 01:02:40 PM
 -- Design Name: 
 -- Module Name: TbenchALU1 - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
+-- Project Name: TbenchALU1
+-- Target Devices: Xilinx Zynq-7010
+-- Tool Versions: Xilinx Vivado 2024.1
 -- Description: 
 -- 
 -- Dependencies: 
