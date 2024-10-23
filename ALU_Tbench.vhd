@@ -4,10 +4,10 @@
 -- 
 -- Create Date: 
 -- Design Name: 
--- Module Name: Lab2_tbench - Behavioral
+-- Module Name: ALU_tbench - Behavioral
 -- Project Name: 
--- Target Devices: 
--- Tool Versions: 
+-- Target Devices: Xilinx Zynq-7010
+-- Tool Versions: Vivado 2024.1
 -- Description: 
 -- 
 -- Dependencies: 
