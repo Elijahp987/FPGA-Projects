@@ -4,8 +4,8 @@
 -- 
 -- Create Date: 10/16/2024 12:34:48 PM
 -- Design Name: 
--- Module Name: Function1 - Behavioral
--- Project Name: ALU Module
+-- Module Name: ALU1 - Behavioral
+-- Project Name: ALU_Module
 -- Target Devices: Xilinx Zynq-7010
 -- Tool Versions: Xilinx Vivado v2024.1
 -- Description: 
@@ -77,8 +77,8 @@ sum <= (A_signed + B_signed); -- signed addition
  process(A, B, sum)
  begin
     if A = "11" and B = "11" then
-        sum1 <= "0110";
-        else sum1 <= "0" & "0" & sum;
+        sum1 <= "0110";                 -- output will be 0110 only when A = 11 and B = 11.
+        else sum1 <= "0" & "0" & sum;      -- otherwise, output will be the sum of A and B. Zero padding to ensure 4 bit output.
     end if;
  end process;
 
